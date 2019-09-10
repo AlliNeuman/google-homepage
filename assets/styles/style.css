@@ -15,26 +15,26 @@ nav li a {
   color: rgba(0,0,0,0.87);
   text-decoration: none;
   line-height: 24px;
-outline: none;
-vertical-align: middle;
-font: small arial, sans-serif;
+  outline: none;
+  vertical-align: middle;
+  font: small arial, sans-serif;
 }
 
 nav .apps-icon {
   border-color: transparent;
-    border-style: dashed dashed solid;
-    border-width: 0 8.5px 8.5px;
-    display: none;
-    position: absolute;
-    left: 6.5px;
-    z-index: 1;
-    height: 0;
-    width: 0;
-    -webkit-animation: gb__a .2s;
-    animation: gb__a .2s;
-    border-bottom-color: #ccc;
-    border-bottom-color: rgba(0,0,0,.2);
-    top: 36px;
+  border-style: dashed dashed solid;
+  border-width: 0 8.5px 8.5px;
+  display: none;
+  position: absolute;
+  left: 6.5px;
+  z-index: 1;
+  height: 0;
+  width: 0;
+  -webkit-animation: gb__a .2s;
+  animation: gb__a .2s;
+  border-bottom-color: #ccc;
+  border-bottom-color: rgba(0,0,0,.2);
+  top: 36px;
 }
 
 
@@ -86,21 +86,17 @@ nav .apps-icon {
   background: #fff;
   display: flex;
   border: 1px solid #dfe1e5;
-  box-shadow: none;
   border-radius: 24px;
   z-index: 3;
   height: 44px;
   margin: 0 auto;
   width: 482px;
-  background-color: #F1F3F4;
-border: none;
-border-radius: 22px;
-box-shadow: none;
-outline: none;
-opacity: 1;
-transition: background-color 300ms ease-in-out;
-transition: opacity 200ms;
-max-width: 560px;
+  box-shadow: none;
+  outline: none;
+  opacity: 1;
+  transition: background-color 300ms ease-in-out;
+  transition: opacity 200ms;
+  max-width: 560px;
 }
 
 .main-search {
@@ -120,4 +116,33 @@ max-width: 560px;
   font: 16px arial, sans-serif;
   line-height: 34px;
   height: 34px;
+}
+
+.search-bar:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+border-color: rgba(223,225,229,0);
+}
+
+.search-buttons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+input[type="submit"] {
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 4px;
+color: #5F6368;
+cursor: pointer;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+min-width: 54px;
+padding: 0 16px;
+text-align: center;
+height: 36px;
+line-height: 27px;
 }
