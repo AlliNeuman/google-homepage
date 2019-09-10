@@ -1,0 +1,123 @@
+nav ul {
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+nav li a {
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+  line-height: 24px;
+outline: none;
+vertical-align: middle;
+font: small arial, sans-serif;
+}
+
+nav .apps-icon {
+  border-color: transparent;
+    border-style: dashed dashed solid;
+    border-width: 0 8.5px 8.5px;
+    display: none;
+    position: absolute;
+    left: 6.5px;
+    z-index: 1;
+    height: 0;
+    width: 0;
+    -webkit-animation: gb__a .2s;
+    animation: gb__a .2s;
+    border-bottom-color: #ccc;
+    border-bottom-color: rgba(0,0,0,.2);
+    top: 36px;
+}
+
+
+.logo-container {
+  margin: 115px auto 35px;
+  height: 92px;
+  width: 272px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.logo-container img {
+  height: 92px;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.search-icon span {
+  color: #9AA0A6;
+  height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  position: relative;
+  display: inline-block;
+  fill: #9AA0A6;
+}
+
+.search-icon svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.search-prompt {
+  color: rgb(128,134, 139);
+  font-family: 'Roboto', arial, sans-serif;
+  font-size: 14px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.search-bar {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 482px;
+  background-color: #F1F3F4;
+border: none;
+border-radius: 22px;
+box-shadow: none;
+outline: none;
+opacity: 1;
+transition: background-color 300ms ease-in-out;
+transition: opacity 200ms;
+max-width: 560px;
+}
+
+.main-search {
+  max-width: 2048px;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: -37px;
+
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px;
+}
